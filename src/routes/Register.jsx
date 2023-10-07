@@ -4,7 +4,7 @@ function Register() {
 
         <div className="flex flex-col">
 
-            <h1 className="text-sexy-green text-center text-3xl mb-6 font-bold">REGISTER</h1>
+            <h1 className="text-sexy-green text-center text-4xl mb-6 font-bold">REGISTER</h1>
 
             <div className="w-[520px]">
                 <div className="flex mb-4 justify-between">
