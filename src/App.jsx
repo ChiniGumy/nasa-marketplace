@@ -3,18 +3,18 @@ import './index.css'
 // import Register from './routes/Register'
 // import Profile from './routes/Profile'
 // import ConfirmationEmail from './routes/ConfirmationEmail'
-import Home from './routes/Home'
-import Navbar from './components/Navbar'
+// import Home from './routes/Home'
+// import Navbar from './components/Navbar'
 
 function App() {
   return (
    <>
-   <Navbar />
+   {/* <Navbar /> */}
     {/* <Register /> */}
     {/* <Profile /> */}
     {/* <CompleteYourProfile /> */}
     {/* <ConfirmationEmail /> */}
-    <Home /> 
+    {/* <Home />  */}
    </>
   )
 }

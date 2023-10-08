@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 function Register() {
   return (
     <div className="bg-bg-black h-screen flex items-center justify-center">
@@ -28,7 +30,14 @@ function Register() {
                 <div className="flex mb-8">
                     <p className="text-xl text-white-text w-[25%] text-left mr-4">Confirm Password</p>
                     <input type="password" className="border-0 bg-transparent border-b border-white-strokes mb-2 w-[75%] p-2 text-white-text outline-none focus:border-sexy-green transition-all"/>                </div>
-                <button className="bg-sexy-green w-full p-4 rounded-[5px] text-[#CCC]">Register</button>
+                
+                <Link to='/email-confirmation'>
+                    <div className="cursor-pointer bg-sexy-green p-4 w-full flex items-center justify-center font-bold: rounded-[5px] text-[#CCC] transition-all hover:bg-[#386e48]">Register</div>
+                </Link>
+                
+
+
+
             </div>
 
             <div className="mt-6 flex items-center">
@@ -38,9 +47,11 @@ function Register() {
             </div>
 
             <div>
-                <div className="w-full border flex items-center justify-center p-4 border-blue-linkedin my-4 text-blue-linkedin rounded-[5px]">Linkedin</div>
-                <div className="w-full border flex items-center justify-center p-4 border-red-google my-4 text-red-google rounded-[5px]">Google</div>
-                <div className="w-full border flex items-center justify-center p-4 border-green-orcid my-4 text-green-orcid rounded-[5px]">ORCID</div>
+                <div className="cursor-pointer w-full border flex items-center justify-center p-4 border-blue-linkedin my-4 text-blue-linkedin rounded-[5px] transition-all hover:border-[#72a4f5]">Linkedin</div>
+
+                <div className="cursor-pointer w-full border flex items-center justify-center p-4 border-red-google my-4 text-red-google rounded-[5px] transition-all hover:border-[#e25757]">Google</div>
+
+                <div className="cursor-pointer w-full border flex items-center justify-center p-4 border-green-orcid my-4 text-green-orcid rounded-[5px] transition-all hover:border-[#5ff79c]">ORCID</div>
             </div>
 
         </div>
