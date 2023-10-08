@@ -2,7 +2,7 @@ import Language_bubble from "../components/Frameworks_bubble"
 
 function Profile() {
   return (
-    <div className="bg-bg-black flex flex-col p-20">
+    <div className="bg-bg-black flex flex-col px-32 py-32 ">
         <h1 className="text-4xl mb-4 text-sexy-green font-bold">Profile</h1>
 
         <div className="w-full flex justify-between">
