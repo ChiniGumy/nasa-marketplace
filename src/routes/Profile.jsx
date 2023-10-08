@@ -1,4 +1,4 @@
-import Language_bubble from "../components/Language_bubble"
+import Language_bubble from "../components/Frameworks_bubble"
 
 function Profile() {
   return (
